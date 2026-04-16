@@ -1,0 +1,28 @@
+
+        /* FOOTER */
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 15px;
+            gap: 10px;
+        }
+
+        .scan-btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            background: #1c2a40;
+            color: #666;
+            cursor: not-allowed;
+            transition: 0.3s;
+        }
+
+          /* Glow hover (even if disabled look) */
+        .scan-btn:hover {
+             background: #00ff9c;
+            color: black;
+            font-weight: bold;
+            box-shadow: 0 0 15px #00ff9c;
+        }

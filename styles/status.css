@@ -1,0 +1,15 @@
+ /* STATUS */
+        .status {
+            display: inline-block;
+            border: 1px solid #00ff9c;
+            color: #00ff9c;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-bottom: 15px;
+            transition: 0.3s;
+        }
+
+        .status:hover {
+            box-shadow: 0 0 12px #00ff9c;
+        }

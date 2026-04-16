@@ -1,0 +1,35 @@
+
+        /* TABS */
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .tab ,.tabactive{
+            flex: 1;
+            min-width: 120px;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            background: #111;
+            color: #aaa;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        /* ACTIVE TAB */
+        
+        /* Hover effect */
+        .tab:hover , .tabactive:hover {
+            
+           
+        
+            background: #00ff9c;
+            color: black;
+            font-weight: bold;
+            box-shadow: 0 0 15px #00ff9c;
+        
+
+        }

@@ -1,0 +1,29 @@
+  /* HEADER */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            position: relative;
+            z-index: 2;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #00ff9c;
+            text-shadow: 0 0 10px #00ff9c;
+        }
+
+        .badge {
+            border: 1px solid #00ff9c;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #00ff9c;
+            transition: 0.3s;
+        }

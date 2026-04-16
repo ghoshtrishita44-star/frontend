@@ -1,0 +1,31 @@
+
+        /* CARD */
+        .card {
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            background: linear-gradient(145deg, #0f1a2e, #0a1424);
+            border: 1px solid rgba(0, 255, 156, 0.2);
+            transition: 0.3s;
+        }
+
+        /* Glow on hover */
+        .card:hover {
+            box-shadow: 0 0 25px rgba(0, 255, 156, 0.3);
+            transform: translateY(-5px);
+        }
+
+        /* CARD HEADER */
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .ready {
+            color: #00ff9c;
+        }
