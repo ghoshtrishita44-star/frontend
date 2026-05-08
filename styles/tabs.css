@@ -1,16 +1,16 @@
-/* 1. Hide the radio buttons themselves */
+/* Hide the radio buttons  */
 .tabs input[type="radio"] {
     display: none;
 }
 
-/* 2. Style the labels to look exactly like your buttons */
+/* buttons */
 .tab-label {
     flex: 1;
     min-width: 120px;
     padding: 10px;
     border-radius: 8px;
     border: none;
-    background: #111; /* Your dark background */
+    background: #111; 
     color: #aaa;
     cursor: pointer;
     transition: 0.3s;
@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-/* 3. Hover effect (keeping your glow) */
+/* Hover effect */
 .tab-label:hover {
     background: #00ff9c;
     color: black;
@@ -29,7 +29,7 @@
     box-shadow: 0 0 15px #00ff9c;
 }
 
-/* 4. THE STICKY ACTIVE STATE */
+
 /* This triggers when the associated radio button is checked */
 input[type="radio"]:checked + .tab-label {
     background: #00ff9c;
@@ -38,7 +38,7 @@ input[type="radio"]:checked + .tab-label {
     box-shadow: 0 0 15px #00ff9c;
 }
 
-/* General tabs container logic */
+/* General tabs container */
 .tabs {
     display: flex;
     flex-wrap: wrap;
