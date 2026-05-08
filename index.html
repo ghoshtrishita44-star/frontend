@@ -46,9 +46,12 @@
             </div>
 
             <div class="tabs">
-                <button class="tabactive">TEXT ANALYSIS</button>
-                <button class="tab">PHOTO ANALYSIS</button>
-            </div>
+             <input type="radio" name="analysis" id="text-mode" checked>
+             <label for="text-mode" class="tab-label">TEXT ANALYSIS</label>
+
+             <input type="radio" name="analysis" id="photo-mode">
+             <label for="photo-mode" class="tab-label">PHOTO ANALYSIS</label>
+             </div>
 
             <textarea placeholder="Paste text content for deepfake analysis..."></textarea>
 
