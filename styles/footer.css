@@ -16,7 +16,7 @@
          background: #1c2a40;
          color: #666;
           cursor: pointer;       
-          transition: 0.3s;
+          transition: 0.3s;}
 
           /* Glow hover  */
         .scan-btn:hover {
